@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht=device-width , initial-scale=1.0" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+    <style>
+        body{
+            padding-left:450px;
+            padding-top:50px;
+            }
+        
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:"roboto",sans-serif;
+        }
+        .container{
+            width:400px;
+            height:400px;
+            outline:gray;
+            border:1px solid  rgb(195,195,195);
+        }
+        
+         .a{
+            padding-left:40px;
+            height:200px;
+         }
+        .a.header{
+            display:flex;
+            justify-content:center;
+            margin-top:20px;
+            margin-bottom:17px;
+        }
+        .a.inputelement{
+            display:flex;
+            flex-direction:column;
+            margin:0px 37px 0px 37px
+        }
+        .inputelement .name{
+                padding:8px;
+                font-size:12px;
+                margin-top:10px;
+        }
+        .name{
+            outline:gray;
+            width:300px;
+            
+        }
+        image{
+            padding-left:200px;
+            height:50px;
+            width:100px;
+        }
+       .button{
+        background-color:rgb(5,117,223);
+        color: white;
+        font-size: 12px;
+        padding:8px;
+        border-radius: 3px;
+        margin-top:12px;
+        margin-bottom:12px;
+        border: none;
+        width:300px;
+        height:35px;
+       }
+       .line{
+        display:flex;
+        margin-top:6px;
+       }
+       .button:hover{
+        background-color:lightblue;
+       }
+       .arrow{
+        background-color:gray;
+        height:1px;
+        width:140px;
+       }
+      .content{
+        color:gray;
+        margin-top:-7px;
+        margin-left:4px;
+        margin-right:4px;
+      }
+      .icon{
+        margin:auto;
+        margin-top:10px;
+        margin-bottom: 15px;
+        padding-left:80px;
+      }
+      .b  {
+        padding:5px;
+        color:rgb(0,55,107)
+      }
+      .icon span{
+        color:rgb(0,55,107);
+        font-family:sans-serif;
+        font-size:14px;
+       
+        text-align:center;
+      }
+      .forget{
+        margin:auto;
+        color:rgb(0,55,107);
+        margin-bottom: 25px;
+        font-size:small;
+        padding-left:80px;
+      }
+      .footer{
+        margin-top:220px;
+        border:1px solid rgb(195,195,195);
+        padding:20px;
+        width:400px;
+        text-align:center;
+      }
+      .footer span{
+        color:rgb(0,66,128);
+        font-weight:400;
+      }
+    </style>
+
+</head>
+<body>
+    
+    <div class="container">
+    <div class="a">
+    <div class="header">
+        <image src="/home/rgukt/Pictures/Screenshots/Screenshot from 2023-10-01 00-54-47.png" alt="instagramlogo" class="instalogo"></image>
+    </div>
+        <div class="inputelement">
+        <input type="text" class="name" placeholder="phonenumber,email or username"></input><br>
+      
+        <input type="password" class="name" placeholder="password"></input>
+       
+        <input type="submit" value="log in " class="button"></input>
+         <div class="line">
+            <span class="arrow"></span>
+            <span class="content">OR</span>
+            <span class="arrow"></span>
+         </div>
+        <div class="icon">
+         <i class= " b fa-brands fa-facebook "></i>
+         <span>Log in with facebook</span>
+        </div>
+        <div class="forget">Forgotten your Password?</div>
+        </div>
+        </div>
+    <table>
+        <div class="footer">
+            <p>don't have a account? <span>Sign up</span></p>
+        </div>
+        </div>
+        </body>
+        </html>
